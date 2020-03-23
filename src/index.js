@@ -4,7 +4,6 @@ import './index.css';
 import './portfolio.css';
 import App from './App'
 import * as serviceWorker from './serviceWorker';
-import rollover from './rollover'
 
 
 ReactDOM.render(<App/>,document.getElementById('root')
