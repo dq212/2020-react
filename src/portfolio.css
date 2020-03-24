@@ -161,7 +161,8 @@ body, html {
     width: 100%; }
   
   .slider:hover {
-    cursor: pointer; }
+    /* cursor: pointer; */
+  } 
   
   /* .slider.open {
     height: 100%;
