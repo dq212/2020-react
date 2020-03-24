@@ -315,13 +315,13 @@ body, html {
     .slider {
       background-color: #4e797f;
       /* border-radius: 8px 8px 0 0; */
-      height: 40%;
+      height: 60%;
       color: #fff;
       opacity: 0.9;
       overflow: hidden;
       position: absolute;
       text-align: center;
-      top: 60%;
+      top: 40%;
       /* left:5%; */
       margin: 0 auto;
       transition: all 0.2s;
@@ -335,15 +335,20 @@ body, html {
       top: 0;
     } */
     .slider.close {
-      height: 40%;
-      top: 60%; }
+      height: 60%;
+      top: 40%; }
   
     .slider h3 {
-      letter-spacing: 3px; }
+      letter-spacing: 3px; 
+      line-height: 1.4;
+      font-size:1.2rem;
+      margin:0.4rem;
+    }
   
     .slider .hover-text {
-      font-size: 1rem;
-      line-height: 1;
+      font-size: 0.8rem;
+      line-height: 1.4;
+      margin:0.5rem 0;
       padding: 0.5rem 1.5rem;
       text-align: justify; } }
   
